@@ -69,11 +69,15 @@ var EmojiResults = /*#__PURE__*/function (_PureComponent) {
   }, {
     key: "render",
     value: function render() {
-      return <div className="component-emoji-results">
-        {this.props.emojiData.map(function (emojiData) {
-          return <_EmojiResultRow.default key={emojiData.title} symbol={emojiData.symbol} title={emojiData.title} />;
-        })}
-      </div>;
+      return /*#__PURE__*/_react.default.createElement("div", {
+        className: "component-emoji-results"
+      }, this.props.emojiData.map(function (emojiData) {
+        return /*#__PURE__*/_react.default.createElement(_EmojiResultRow.default, {
+          key: emojiData.title,
+          symbol: emojiData.symbol,
+          title: emojiData.title
+        });
+      }));
     }
   }]);
 

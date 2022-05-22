@@ -67,11 +67,11 @@ var SearchInput = /*#__PURE__*/function (_PureComponent) {
   _createClass(SearchInput, [{
     key: "render",
     value: function render() {
-      return <div className="component-search-input">
-        <div>
-          <input onChange={this.handleChange} />
-        </div>
-      </div>;
+      return /*#__PURE__*/_react.default.createElement("div", {
+        className: "component-search-input"
+      }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("input", {
+        onChange: this.handleChange
+      })));
     }
   }]);
 

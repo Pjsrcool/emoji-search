@@ -57,11 +57,17 @@ var EmojiResultsRow = /*#__PURE__*/function (_PureComponent) {
     value: function render() {
       var codePointHex = this.props.symbol.codePointAt(0).toString(16);
       var src = "//cdn.jsdelivr.net/emojione/assets/png/".concat(codePointHex, ".png");
-      return <div className="component-emoji-result-row copy-to-clipboard" data-clipboard-text={this.props.symbol}>
-        <img alt={this.props.title} src={src} />
-        <span className="title">{this.props.title}</span>
-        <span className="info">Click to copy emoji</span>
-      </div>;
+      return /*#__PURE__*/_react.default.createElement("div", {
+        className: "component-emoji-result-row copy-to-clipboard",
+        "data-clipboard-text": this.props.symbol
+      }, /*#__PURE__*/_react.default.createElement("img", {
+        alt: this.props.title,
+        src: src
+      }), /*#__PURE__*/_react.default.createElement("span", {
+        className: "title"
+      }, this.props.title), /*#__PURE__*/_react.default.createElement("span", {
+        className: "info"
+      }, "Click to copy emoji"));
     }
   }]);
 

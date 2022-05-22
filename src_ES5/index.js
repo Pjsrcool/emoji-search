@@ -12,4 +12,4 @@ require("github-fork-ribbon-css/gh-fork-ribbon.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom.default.render(<_App.default />, document.getElementById("root"));
+_reactDom.default.render( /*#__PURE__*/_react.default.createElement(_App.default, null), document.getElementById("root"));

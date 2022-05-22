@@ -11,5 +11,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 it("renders without crashing", function () {
   var div = document.createElement("div");
 
-  _reactDom.default.render(<_App.default />, div);
+  _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_App.default, null), div);
 });

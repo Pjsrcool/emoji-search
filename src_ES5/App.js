@@ -72,11 +72,11 @@ var App = /*#__PURE__*/function (_PureComponent) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return <div>
-        <_Header.default />
-        <_SearchInput.default textChange={this.handleSearchChange} />
-        <_EmojiResults.default emojiData={this.state.filteredEmoji} />
-      </div>;
+      return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_SearchInput.default, {
+        textChange: this.handleSearchChange
+      }), /*#__PURE__*/_react.default.createElement(_EmojiResults.default, {
+        emojiData: this.state.filteredEmoji
+      }));
     }
   }]);
 

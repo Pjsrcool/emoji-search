@@ -49,11 +49,19 @@ var Header = /*#__PURE__*/function (_PureComponent) {
   _createClass(Header, [{
     key: "render",
     value: function render() {
-      return <header className="component-header">
-        <img src="//cdn.jsdelivr.net/emojione/assets/png/1f638.png" width="32" height="32" alt="" />
-        Emoji Search
-        <img src="//cdn.jsdelivr.net/emojione/assets/png/1f63a.png" width="32" height="32" alt="" />
-      </header>;
+      return /*#__PURE__*/_react.default.createElement("header", {
+        className: "component-header"
+      }, /*#__PURE__*/_react.default.createElement("img", {
+        src: "//cdn.jsdelivr.net/emojione/assets/png/1f638.png",
+        width: "32",
+        height: "32",
+        alt: ""
+      }), "Emoji Search", /*#__PURE__*/_react.default.createElement("img", {
+        src: "//cdn.jsdelivr.net/emojione/assets/png/1f63a.png",
+        width: "32",
+        height: "32",
+        alt: ""
+      }));
     }
   }]);
 

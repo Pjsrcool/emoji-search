@@ -2,12 +2,13 @@
   "name": "emoji-search",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "http://ahfarmer.github.io/emoji-search",
+  "homepage": "/",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.12",
     "@babel/node": "^7.17.10",
     "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/plugin-transform-react-jsx": "^7.17.12",
     "@babel/preset-env": "^7.17.12",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1",
@@ -25,7 +26,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "es5": "babel src -d src_ES5"
+    "es5": "babel src -d src"
   },
   "browserslist": {
     "production": [
